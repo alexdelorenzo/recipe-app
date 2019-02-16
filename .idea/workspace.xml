@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="899ba1d3-4128-4080-b46d-490c5fc5895b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/recipe/migrations/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/recipe/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/recipe/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/recipe/tests/test_tags_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/recipe/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/tests/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/tests/test_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/user/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/user/tests/test_user_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/tests/test_user_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/recipe/tests/test_tags_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/tests/test_tags_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/recipe/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="364">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -107,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_tags_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="733">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
               </folding>
@@ -173,17 +160,17 @@
         <option value="$PROJECT_DIR$/app/core/tests/test_models.py" />
         <option value="$PROJECT_DIR$/app/core/models.py" />
         <option value="$PROJECT_DIR$/app/core/admin.py" />
-        <option value="$PROJECT_DIR$/app/recipe/tests/test_tags_api.py" />
         <option value="$PROJECT_DIR$/app/recipe/urls.py" />
         <option value="$PROJECT_DIR$/app/app/urls.py" />
         <option value="$PROJECT_DIR$/app/recipe/serializers.py" />
         <option value="$PROJECT_DIR$/app/recipe/views.py" />
+        <option value="$PROJECT_DIR$/app/recipe/tests/test_tags_api.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="765" />
-    <option name="y" value="71" />
+    <option name="x" value="796" />
+    <option name="y" value="27" />
     <option name="width" value="883" />
     <option name="height" value="934" />
   </component>
@@ -212,25 +199,6 @@
               <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="recipe-app" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recipe-app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recipe-app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recipe-app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="recipe" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -238,34 +206,6 @@
               <item name="recipe-app" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="recipe" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recipe-app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="recipe" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recipe-app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="recipe" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recipe-app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recipe-app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -510,16 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_tags_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/app/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -572,10 +502,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/recipe/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="364">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_tags_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>

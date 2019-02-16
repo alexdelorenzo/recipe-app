@@ -50,10 +50,28 @@ class PrivateTagApiTests(TestCase):
             'test123123'
         )
         Tag.objects.create(user=user, name='Citrus')
-        tag = Tag.objects.create(user=self.user, name='Comfort')
+        Tag.objects.create(user=self.user, name='Comfort')
 
         response = self.client.get(TAGS_URL)
 
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.assertEqual(len(response.data), 1)
-        self.assertEqual(response.data[0].name, 'Comfort')
+        self.assertEqual(response.data[0]['name'], 'Comfort')
+
+    def test_create_tag_successful(self):
+        """Test creating a new tag"""
+        payload = {'name': 'Test tag'}
+        self.client.post(TAGS_URL, payload)
+
+        exists = Tag.objects.filter(
+            name=payload['name'],
+            user=self.user
+        ).exists()
+
+        self.assertTrue(exists)
+
+    def test_create_tag_invalid_name(self):
+        """Test validation error upon invalid name"""
+        payload = {'name': ''}
+        response = self.client.post(TAGS_URL, payload)
+        self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
